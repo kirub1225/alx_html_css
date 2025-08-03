@@ -123,3 +123,41 @@ nav a {
   font-style: italic;
   color: #ccc;
 }
+/* ================================
+   Task 3: Quotes (Testimonials)
+================================ */
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C47BFF;
+  padding: 110px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.testimonial-image img {
+  box-shadow: 1px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-text {
+  margin-left: 40px;
+  max-width: 700px;
+}
+
+.testimonial-text blockquote {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.testimonial-text h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.testimonial-text .role {
+  font-style: italic;
+  margin-top: 5px;
+  opacity: 0.9;
+}
