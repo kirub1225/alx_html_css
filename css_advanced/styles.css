@@ -257,3 +257,59 @@ nav a {
 .card-footer span {
   color: #C271FF;
 }
+/* ================================
+   Task 5: Membership
+================================ */
+.membership {
+  background-color: #0b1424;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.membership h2 {
+  font-size: 2rem;
+  margin-bottom: 60px;
+}
+
+.membership h2 span {
+  color: #bb6df3;
+  font-weight: bold;
+}
+
+.membership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 40px;
+  justify-items: center;
+  margin-bottom: 60px;
+}
+
+.membership-item img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+.membership-item h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.membership-item p {
+  font-size: 0.9rem;
+  color: #d1d1d1;
+  line-height: 1.5;
+}
+
+.register-btn {
+  background: #C271FF;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
