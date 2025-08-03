@@ -161,3 +161,99 @@ nav a {
   margin-top: 5px;
   opacity: 0.9;
 }
+/* ================================
+   Task 4: Videos List
+================================ */
+.tutorials {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.tutorials h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #071629;
+}
+
+.tutorials h2 span {
+  color: #bb6df3;
+  font-weight: bold;
+}
+
+.tutorials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tutorial-card {
+  text-align: left;
+  background: white;
+  padding: 0 0 20px;
+}
+
+.video-container {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-container img.video-bg {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.video-container .play-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+}
+
+.tutorial-card h3 {
+  font-size: 1rem;
+  margin: 12px 0 6px;
+  font-weight: bold;
+}
+
+.tutorial-card p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.instructor {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.instructor img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.instructor h4 {
+  font-size: 0.85rem;
+  color: #bb6df3;
+  margin: 0;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.card-footer span {
+  color: #C271FF;
+}
