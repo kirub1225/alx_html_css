@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #fff;
+  color: #fff;
+}
+
+/* ================================
+   Task 2: Header and Banner
+================================ */
+/* Header styles */
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+nav img {
+  height: 30px;
+  margin-left: 200px;
+}
+
+nav a {
+  flex-direction: row;
+  margin: 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/Object.png') center/cover no-repeat;
+  min-height: 100vh;
+  text-align: center;
+  padding: 150px 20px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-family: inter, sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero span {
+  margin: 0 10px;
+  font-family: inter, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.hero button {
+  display: block;
+  margin: 30px auto 0;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: #C271FF;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+/* Learn from the pros subtitle */
+.hero h2 {
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: 0;
+}
+
+.hero h2 span {
+  color: #bb6df3;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+/* Instructor images inside hero */
+.hero-images {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-images div {
+  text-align: center;
+  max-width: 150px;
+}
+
+.hero-images img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero-images h3 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hero-images p {
+  font-size: 12px;
+  font-style: italic;
+  color: #ccc;
+}
